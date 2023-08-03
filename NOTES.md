@@ -92,4 +92,7 @@ a pseudocode for checking for a root can be;
 2. if node->parent is equal to NULL return (1)
 3. return 0
 
+### height of a binary tree
+The height of a binary tree is the length of the longest path from the root node to any leaf node in the tree
+
 
