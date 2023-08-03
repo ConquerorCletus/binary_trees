@@ -73,7 +73,7 @@ Left sub   (1)       (2) right subtree
 
 -----------------------------------------------------------
 
-# Checking for a leaf in a binary tree
+### Checking for a leaf in a binary tree
 A leaf is a node that has no children in a binary tree.
 
 a pseudocode for checking for a leaf can be;
@@ -82,3 +82,14 @@ a pseudocode for checking for a leaf can be;
 3. return 0
 
 so this codes would return an integer if leaf = 1 && if not leaf = 1.
+
+### Checking for a ROOT
+A root node is the originator of the binary tree the top most node of the tree.
+a node with no parent is the root node, that means root == NULL
+
+a pseudocode for checking for a root can be;
+1. if node is NULL return NULL
+2. if node->parent is equal to NULL return (1)
+3. return 0
+
+
