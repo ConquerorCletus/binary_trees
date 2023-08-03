@@ -71,4 +71,14 @@ Left sub   (2)       (3) right subtree
              /       \
 Left sub   (1)       (2) right subtree
 
+-----------------------------------------------------------
 
+# Checking for a leaf in a binary tree
+A leaf is a node that has no children in a binary tree.
+
+a pseudocode for checking for a leaf can be;
+1. if node is NULL return NULL
+2. if node->left is equal to NULL and node->right is equal to NULL return (1)
+3. return 0
+
+so this codes would return an integer if leaf = 1 && if not leaf = 1.
